@@ -24,12 +24,7 @@ portfolio-website/
 └── robots.txt
 ```
 ## Live sites
-
-All of these are free:
-
-- **Netlify:** go to https://app.netlify.com/drop and drag the `portfolio-website` folder onto the page.
-- **Vercel or Cloudflare Pages:** upload the folder as a static site. There is no build command.
-- **GitHub Pages:** push the folder's contents to a repository, then go to **Settings → Pages** and deploy from the main branch.
+- **Vercel:** https://syed-ukasha-shahidportfolio.vercel.app
 
 ## Editing
 
