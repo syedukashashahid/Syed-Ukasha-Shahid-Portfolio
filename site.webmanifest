@@ -1,0 +1,13 @@
+{
+  "name": "Syed Ukasha Shahid — Portfolio",
+  "short_name": "Ukasha Shahid",
+  "description": "Portfolio of Syed Ukasha Shahid, aspiring software developer and BS Computer Science student.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0E0E0E",
+  "theme_color": "#0E0E0E",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
