@@ -1,6 +1,5 @@
 # Syed Ukasha Shahid — Portfolio (plain HTML, CSS and JavaScript)
 
-The same website as the Astro project, split into ordinary files. It has no build step, no Node.js and no npm.
 
 ## Files
 
@@ -24,25 +23,7 @@ portfolio-website/
 ├── site.webmanifest
 └── robots.txt
 ```
-
-## How to open it
-
-**Option 1: VS Code with Live Server (recommended)**
-
-1. In VS Code, use **File → Open Folder** and choose `portfolio-website`.
-2. Install the **Live Server** extension.
-3. Right-click `index.html` and choose **Open with Live Server**.
-
-**Option 2: double-click `index.html`**
-
-The site opens and works. Some browsers limit pages opened straight from disk, though, so use Option 1 to check it properly.
-
-**Option 3: from a terminal**
-
-- With Python: run `python -m http.server 8000` in this folder, then open `http://localhost:8000`.
-- With Node.js: run `npx serve .` instead.
-
-## Putting it online
+## Live sites
 
 All of these are free:
 
@@ -77,13 +58,11 @@ All of these are free:
 
 **Animations:** `js/main.js` is readable and commented by section. For example, search for `src/scripts/cinematic.ts` to find the scroll scenes.
 
-## Contact form
 
-Until you connect an email service, the form tells visitors that online sending isn't set up. It then offers to open their email app with the message filled in. It never claims a message was sent.
 
-To make it send for real with **Web3Forms** (free):
+<!-- To make it send for real with **Web3Forms** (free):
 
-1. Go to https://web3forms.com, enter `u128413@gmail.com`, and copy the access key they email you.
+1. Go to https://web3forms.com, enter `syedukashashahid@gmail.com`, and copy the access key they email you.
 2. In `index.html`, find the `<form class="cform"` tag and change it so it starts like this:
 
    ```html
@@ -92,8 +71,4 @@ To make it send for real with **Web3Forms** (free):
 
 3. In the same form, replace the sentence in `<p class="cform__note" id="cform-note">` with: `Your message goes straight to my inbox.`
 
-To use **Formspree** instead, set `data-provider="formspree"` and `data-formspree="https://formspree.io/f/your-form-id"`.
-
-## After deploying
-
-Once you have a web address, change `og-image.jpg` in the `og:image` and `twitter:image` tags to the full address, for example `https://your-site.com/og-image.jpg`. Link previews on LinkedIn and WhatsApp need the full address to show the image.
+To use **Formspree** instead, set `data-provider="formspree"` and `data-formspree="https://formspree.io/f/your-form-id"`. -->
